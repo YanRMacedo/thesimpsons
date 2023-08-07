@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@font-face {
+    font-family: "Simpsons";
+    src: url(../fonte/Homer_Simpson_Revised.ttf) format("truetype");
+    font-weight: normal;
+}
+
+:root {
+    --cor1: rgba(240, 128, 128, 0.781);
+    --cor2: rgba(128, 236, 240, 0.795);
+    --cor3: darkred;
+
+    --fonte-destaque: 'Simpsons', sans-serif;
+    --fonte-nova: 'Nanum Pen Script', cursive;
+}
+
+body {
+    background-color: rgb(240, 128, 128);
+
+}
+
+header {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 0px;
+}
+
+nav {
+    background-color: rgba(128, 236, 240, 0.795);
+    border-radius: 5px;
+    text-align: center;
+    word-spacing: 30px;
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.425);
+    margin: 10px;
+}
+
+nav>a {
+    text-decoration: none;
+    color: darkred;
+    font-size: 1em;
+    transition-duration: 1s;
+
+
+}
+
+nav>a:hover {
+    text-decoration: line-through;
+
+
+}
+
+main {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+
+}
+
+main p {
+    margin: 20px 0px;
+    text-indent: 30px;
+    font-family: var(--fonte-nova);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+main h1 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    color: var(--cor3);
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    font-size: 2em;
+    text-align: center;
+}
+
+main img.homer0 {
+    display: block;
+    margin: auto;
+
+}
+
+main img.homer1 {
+    display: block;
+    margin: auto;
+
+}
+
+div {
+    display: inline-block;
+    columns: 2;
+}
+
+aside {
+
+    background-color: var(--cor1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+aside>p {
+    padding: 10px;
+}
+
+aside>h3 {
+    padding: 10px;
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: aqua;
+    color: darkred;
+    padding: 5px;
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: darkred;
+}
+
+footer>p {
+    text-align: center;
+}
+
+footer>p>a:hover {
+    text-decoration: line-through;
+    color: yellow;
+}

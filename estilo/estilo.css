@@ -70,7 +70,7 @@ main p {
     font-family: var(--fonte-nova);
     font-size: 1.5em;
     text-align: justify;
-    line-height: 1.5em;
+    line-height: 2em;
 }
 
 main h1 {

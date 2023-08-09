@@ -54,76 +54,14 @@ nav>a:hover {
     border-radius: 5px;
 }
 
-main {
-    background-color: aquamarine;
-    border-radius: 5px;
-    padding: 20px;
-    margin: auto;
-    width: 50%;
-    max-width: 817px;
-    min-width: 440px;
-
+div {
+    display: inline-block;
+    columns: 2;
+    align-items:  center;
 }
 
-main p {
-    margin: 20px 0px;
-    text-indent: 30px;
-    font-family: var(--fonte-nova);
-    font-size: 1.5em;
-    text-align: justify;
-}
-
-main h1 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    color: var(--cor3);
-    text-align: center;
-}
-
-main h2 {
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
-    text-align: center;
-}
-
-main img {
-    width: 100%;
-}
-
-main img.homer0 {
+div img {
     max-width: 150px;
-    margin: auto;
-    display: block;
-}
-
-main img.homer1 {
-   max-width: 150px;
-   display: block;
-   margin: auto;
-}
-
-main img.homer2 {
-    max-width: 400px;
-    display: block;
-    margin: auto;
-}
-
-aside {
-
-    background-color: var(--cor1);
-    border-radius: 10px 10px 10px 10px;
-}
-
-aside>p {
-    padding: 10px;
-}
-
-aside>h3 {
-    padding: 10px;
-    background-color: var(--cor3);
-    border-radius: 10px 10px 0px 0px;
-    color: white;
-    font-size: 1.5em;
 }
 
 footer {

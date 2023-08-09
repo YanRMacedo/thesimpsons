@@ -25,11 +25,10 @@ body {
 
 }
 
-header {
-    font-family: var(--fonte-destaque);
-    color: var(--cor3);
-    text-align: center;
-    font-size: 3em;
+header {    
+    max-width: 400px;
+    margin: auto;
+    
 }
 
 nav {
@@ -71,11 +70,12 @@ main p {
     font-family: var(--fonte-nova);
     font-size: 1.5em;
     text-align: justify;
+    line-height: 1.5em;
 }
 
 main h1 {
     font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-size: 3em;
     color: var(--cor3);
     text-align: center;
 }

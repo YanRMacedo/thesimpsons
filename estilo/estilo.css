@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 
 @font-face {
     font-family: "Simpsons";
@@ -17,7 +17,7 @@
     --cor3: darkred;
 
     --fonte-destaque: 'Simpsons', sans-serif;
-    --fonte-nova: 'Nanum Pen Script', cursive;
+    --fonte-nova: 'Lilita One', cursive;
 }
 
 body {

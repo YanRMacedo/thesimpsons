@@ -52,14 +52,25 @@ nav>a:hover {
     border-radius: 5px;
 }
 
-div {
+div.homer3 {
     display: inline-block;
-    columns: 2;
-    align-items:  center;
+    border: 2px  black;
+    width: 150px;
+    height: 150px;
+    background-repeat: no-repeat;
 }
 
-div img {
-    max-width: 150px;
+div#h1{
+    background-image: url(../fotos/homer.png);
+}
+
+div#h2 {
+    background-image: url(../fotos/marge150.png);
+}
+
+div#h3 {
+   
+    background-image: url(../fotos/lisa150.png);
 }
 
 footer {

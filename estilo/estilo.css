@@ -25,9 +25,9 @@ body {
 
 }
 
-header {    
+header {
     display: flex;
-    justify-content: center;  
+    justify-content: center;
 }
 
 nav {
@@ -38,6 +38,7 @@ nav {
     font-size: 2em;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.425);
     margin-bottom: 10px;
+    padding: 10px;
 }
 
 nav>a {
@@ -54,13 +55,13 @@ nav>a:hover {
 
 main {
     background-color: aquamarine;
-    border-radius: 5px;
-    padding: 20px;
-    margin: auto;
-    width: 50%;
     max-width: 817px;
-    min-width: 440px;
-
+    min-width: 320px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    border-radius: 10px;  
 }
 
 main p {
@@ -96,9 +97,9 @@ main img.homer0 {
 }
 
 main img.homer1 {
-   max-width: 150px;
-   display: block;
-   margin: auto;
+    max-width: 150px;
+    display: block;
+    margin: auto;
 }
 
 main img.homer2 {

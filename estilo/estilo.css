@@ -3,11 +3,21 @@
     margin: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@font-face {
+    font-family: "Simpsons1";
+    src: url(../fonte/monof55.ttf) format("opentype");
+    font-weight: bold;
+}
 
 @font-face {
     font-family: "Simpsons";
-    src: url(../fonte/Homer_Simpson_Revised.ttf) format("truetype");
+    src: url(../fonte/Homer_Simpson_Revised.ttf) format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Simpsons2";
+    src: url(../fonte/Simpsonfont\ DEMO.otf) format("opentype");
     font-weight: normal;
 }
 
@@ -17,7 +27,8 @@
     --cor3: darkred;
 
     --fonte-destaque: 'Simpsons', sans-serif;
-    --fonte-nova: 'Lilita One', cursive;
+    --fonte-nova: 'Simpsons1', arial;
+    --fonte-diferente: 'Simpsons2', arial;
 }
 
 body {
@@ -50,7 +61,7 @@ nav>a {
 
 nav>a:hover {
     background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 main {
@@ -70,6 +81,11 @@ main p {
     font-size: 1.5em;
     text-align: justify;
     line-height: 2em;
+    
+}
+
+main p>strong {
+    color: var(--cor3)
 }
 
 main h1 {
@@ -117,12 +133,19 @@ aside>p {
     padding: 10px;
 }
 
+aside>p>strong {
+    color: yellow
+}
+
 aside>h3 {
+    color: white;
+    font-family: var(--fonte-diferente);
+    font-size: 1.5em;
+    letter-spacing: 10px;
     padding: 10px;
     background-color: var(--cor3);
     border-radius: 10px 10px 0px 0px;
-    color: white;
-    font-size: 1.5em;
+    
 }
 
 footer {

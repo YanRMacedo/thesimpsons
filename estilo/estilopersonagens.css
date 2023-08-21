@@ -22,11 +22,9 @@
 
 body {
     background-color: rgb(240, 128, 128);
-    background-image: url(../fotos/homer150.png);
-    background-position: left center;
-    background-repeat: no-repeat;
-    height: 94vh;
+    
 }
+
 
 header {
     display: flex;
